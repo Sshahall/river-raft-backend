@@ -11,9 +11,8 @@ const adminAuthRoutes = require('./routes/adminAuthRoutes');
 const app = express();
 
 const allowedOrigins = [
-  
-  'https://river-raft-frontend-87tpqouzq-sshahalls-projects.vercel.app/' // ✅ Replace with actual frontend URL
-  ,'http://localhost:3000'
+  'http://localhost:3000',
+  'https://river-raft-frontend.vercel.app/' // ✅ Replace with actual frontend URL
 ];
 // Middleware
 app.use(cors({
